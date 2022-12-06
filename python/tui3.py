@@ -7,5 +7,5 @@ class SimpleApp(App):
         await self.view.dock(Placeholder(), edge="left", size=40)
         await self.view.dock(Placeholder(), Placeholder(), edge="top")
 
-
-SimpleApp.run(log="textual.log")
+a = SimpleApp()
+a.run()
